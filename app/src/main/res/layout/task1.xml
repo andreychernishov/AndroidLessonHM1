@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_view_task1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_700"
+        android:text="Введите что то в поле ниже"
+        android:textColor="@color/white"
+        android:textStyle="italic" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#BB64CA"
+        android:fontFamily="cursive"
+        android:hint="Введите  текст..."
+        android:minHeight="48dp"
+        android:textColor="#0127FA"></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DD1414"
+        android:text="Push Me!!"
+        android:textColor="@color/white">
+
+    </Button>
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#86F307"
+
+        android:fontFamily="cursive"
+        android:minHeight="48dp"
+        android:showText="true"
+        android:text="Переключатель"
+        android:textColor="#FF0329" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CheckBox" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton" />
+</LinearLayout>
